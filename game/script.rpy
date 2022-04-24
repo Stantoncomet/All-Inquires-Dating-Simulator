@@ -90,21 +90,7 @@ label dinner:
         "Sorry, I'm not hungry...":
             $ snack = "boring"
             jump fruit_snack
-        "Sorry, I'm not hungry...":
-            $ snack = "boring"
-            jump fruit_snack
-        "Sorry, I'm not hungry...":
-            $ snack = "boring"
-            jump fruit_snack
-        "Sorry, I'm not hungry...":
-            $ snack = "boring"
-            jump fruit_snack
-        "Sorry, I'm not hungry...":
-            $ snack = "boring"
-            jump fruit_snack
-        "Sorry, I'm not hungry...":
-            $ snack = "boring"
-            jump fruit_snack
+
 
     label fruit_snack:
     if snack == "vent":
